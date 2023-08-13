@@ -22,7 +22,6 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/About" element={<About />} />
-        <Route path="*" element={<PageNotFound />} />
         {/* frontend_projects */}
         <Route path="/NoteVerse" element={<NoteVerse />} />
         <Route path="/DiceGame" element={<DiceGame />} />
@@ -32,6 +31,8 @@ function App() {
         <Route path="/Notes" element={<Notes />} />
         <Route path="/Todolist" element={<Todolist />} />
         <Route path="/DailyJournal" element={<DailyJournal />} />
+        {/*PageNotFound*/}
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer />
     </div>

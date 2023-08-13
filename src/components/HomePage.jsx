@@ -96,23 +96,23 @@ function Content() {
             </Button>
           </Link>
         </div>
-      </div>
+        <div className="skill-row">
+          <img className="skill-pic" src={smokebomb} alt="skill" />
 
-      <div className="skill-row">
-        <img className="skill-pic" src={smokebomb} alt="skill" />
-        <h3>Full-Stack Ecommerce App</h3>
-        <p>
-          I'm currently working on an exciting full-stack Ecommerce application
-          using technologies like React.js for the front-end and Node.js,
-          Express.js, and MongoDB for the back-end. This app aims to provide
-          users with a seamless shopping experience, featuring product browsing,
-          cart management, and secure payment processing.
-        </p>
-        <Link to="/Ecommerce">
-          <Button className="link-btn" variant="outline-dark">
-            Ecommerce
-          </Button>
-        </Link>
+          <h3>Full-Stack Ecommerce App</h3>
+          <p>
+            I'm currently working on an exciting full-stack Ecommerce
+            application using technologies like React.js for the front-end and
+            Node.js, Express.js, and MongoDB for the back-end. This app aims to
+            provide users with a seamless shopping experience, featuring product
+            browsing, cart management, and secure payment processing.
+          </p>
+          <Link to="/Ecommerce">
+            <Button className="link-btn" variant="outline-dark">
+              Ecommerce
+            </Button>
+          </Link>
+        </div>
       </div>
 
       <h2>Get In Touch</h2>

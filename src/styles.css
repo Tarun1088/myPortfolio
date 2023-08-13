@@ -149,8 +149,8 @@ color: #ffffff;
 
 
 #background-video {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     position: fixed;
     left: 0;
@@ -286,15 +286,18 @@ background-color: #bd4f14;
       .contact-me,
       .skill-row {
         width: 100%; 
-        margin: 10px;
+        margin: 5px;
         padding: 15px;
       }
     
+.contact-me {
+    margin: 0 auto 15px; 
+    text-align: center;
+}
     .skill-pic,
     .skill-pic-2 {
-      width: 50%;
-      margin-right: 0;
-      margin-bottom: 15px;
+      width: 40%;
+      margin-bottom: 5px; 
     }
 
  /* *****************************************Projects******************************** */

@@ -28,6 +28,7 @@ h3{
     font-family: 'Pangolin', cursive;
     color: #276281;
     font-weight: 150;
+    margin: 10px 0px;
 }
 
     
@@ -177,48 +178,11 @@ color: #ffffff;
 }
 
 .sentense{
-    width: 40vw;
+    width: 50vw;
     height: 65vh;
-
 }
 
-/* *****************************PageNotFound**************************************** */
-.PageNotFound {
-    background-image: url("../src/images/license-pic/5203299.jpg");
-    background-size: 780px;
-    background-repeat: no-repeat;
-    height: 74vh;
-    width: 100%;
-color:#18202a;
-background-color: #bd4f14;
 
-} 
-.PageNotFound-content{
-    position: relative;
-    left: 300px;
-    top:35%;
-    text-align: center;
-    
-}
-.PageNotFound-title {
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 100px;
-}
-
-.PageNotFound-btn{
-    color: rgb(254, 254, 254);
-    border: 1px solid black;
-    text-decoration: none;
-    padding: 8px;
-    margin-top: 8px;
-    border-radius: 15%;
-}
-    
-.PageNotFound-btn:hover {
-    background-color : #113a50;
-    color: white;
-  }
  /* *****************************************Projects******************************** */
 
  .Project {
@@ -260,44 +224,70 @@ width: 50%;
     margin: 5px 110px 5px 110px; 
 }
 
+/* *****************************PageNotFound**************************************** */
+.PageNotFound {
+  background-image: url("../src/images/license-pic/5203299.jpg");
+  background-size: 780px;
+  background-repeat: no-repeat;
+  height: 74vh;
+  width: 100%;
+color:#18202a;
+background-color: #bd4f14;
+
+} 
+.PageNotFound-content{
+  position: relative;
+  left: 350px;
+  top:35%;
+  text-align: center;
+  
+}
+.PageNotFound-title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 100px;
+}
+
+.PageNotFound-btn{
+  color: rgb(254, 254, 254);
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 8px;
+  margin-top: 8px;
+  border-radius: 15%;
+}
+  
+.PageNotFound-btn:hover {
+  background-color : #113a50;
+  color: white;
+}
 
 
-/* Your existing CSS styles */
 
 /* Media Query for Mobile Devices */
-@media (max-width: 767px) {
+@media (max-width: 767px) {  
     /* Adjustments for mobile devices */
-    .top-container {
-      padding: 20px;
+    .sentense {
+      width: 356px;
+    height: 356px;
     }
-  
-    .skill-row {
-      width: 100%;
-      padding: 20px;
-      box-sizing: border-box;
+    .profile-pic {
+      max-width: 100px; 
+      height: auto;
+      margin: 30px 0px 0px;
     }
-  
-    .skill-pic,
-    .skill-pic-2 {
-      width: 100%;
-      margin-right: 0;
-      margin-bottom: 15px;
-    }
-  }
-
-
-/* Media Query for Mobile Devices */
-@media (max-width: 767px) {
-    /* Adjustments for mobile devices */
     .skills {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        margin: 5px;
       }
     
+      .contact-me,
       .skill-row {
-        width: calc(100% - 40px); /* Adjust the width as needed */
+        width: 100%; 
         margin: 10px;
+        padding: 15px;
       }
     
     .skill-pic,
@@ -306,28 +296,88 @@ width: 50%;
       margin-right: 0;
       margin-bottom: 15px;
     }
-  }
-  
-  /* Media Query for Tablets */
-  @media (min-width: 768px) and (max-width: 1023px) {
-    /* Adjustments for tablets */
-    .skills {
-      display: flex;
-      flex-direction: column;
+
+ /* *****************************************Projects******************************** */
+
+ .Project {
+  margin: 5px;
+  border-radius: 40px;} 
+
+
+.projectHead {
+  font-size: 2.625rem;    
+}
+
+.Project-h3, .Project-h2 {
+  font-size: 1.625rem;  
+}
+.project-p,
+.projectDescription{
+margin: 5px; 
+}
+
+.ProjectImage{
+width: 100%;
+}
+
+ }
+
+
+/* *****************************PageNotFound**************************************** */
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  .PageNotFound-title {
+      font-size: 3vw; 
+      font-weight: 1000;
+      line-height: 1.2;
+      color: #000000
+    }
+    .PageNotFound-p{
+      color: #000000;
+      font-weight: 1000;
+    }
+    .PageNotFound {
+      background-image: url("../src/images/license-pic/5203299.jpg");
       align-items: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 50vh;
+      width: 100%;
     }
-  
-    .skill-row {
-      width: 70%;
-      padding: 30px;
-      box-sizing: border-box;
+    
+    .PageNotFound-content {
+      position: relative;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
     }
-  
-    .skill-pic,
-    .skill-pic-2 {
-      width: 50%;
-      margin-right: 30px;
-      margin-bottom: 0;
+    
+    .PageNotFound-btn {
+      color: rgb(0, 0, 0);
+      border: 1px solid black;
+      text-decoration: none;
+      padding: 4px 8px;
+      margin-top: 4px;
+      border-radius: 15%;
+      display: inline-block;
     }
+}
+
+ 
+/* @media (min-width: 768px) and (max-width: 1023px) { */
+  /* Adjustments for tablets */
+  /* .sentense {
+    width: 456px;
+  height: 456px;
   }
-  
+
+  .profile-pic {
+    max-width: 150px;
+    height: auto;
+    margin: 50px 0px 50px; 
+  }
+
+} */

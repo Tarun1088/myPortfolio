@@ -18,10 +18,10 @@ function Content() {
               A <span className="pro">pro</span>grammer
             </h2>
           </div>
-          <div className="col-4">
+          <div className="col-md-4 d-flex justify-content-center align-items-center">
             <img className="profile-pic" src={profilePic} alt="profile" />
           </div>
-          <div className="col-7">
+          <div className="col-md-7 d-flex justify-content-center align-items-center">
             <img className="sentense" src={sentenceImage} />
           </div>
           <i className="bi bi-chevron-compact-down" />
@@ -31,6 +31,7 @@ function Content() {
       <hr />
       <div className="skills">
         <h2>My Skills.</h2>
+
         <div className="skill-row">
           <img className="skill-pic" src={katanaImage} alt="skill" />
           <h3>Front-end Development</h3>
@@ -113,6 +114,7 @@ function Content() {
           </Button>
         </Link>
       </div>
+
       <h2>Get In Touch</h2>
       <div className="contact-me">
         <h3>Have a project in mind or want to collaborate?</h3>

@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+
+body{
+    text-align: center;
+}
+
+.pro{text-decoration: underline;}
+
+h1{
+    font-family: Pacifico, sans-serif;
+    font-size: 4.625rem;    
+    color: white;
+    margin-top: 50px;
+    
+}   
+
+h2{
+    font-family:'Pangolin', cursive;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #276281;
+    margin: 30px 30px 0px 30px;
+    
+}
+
+h3{
+    font-family: 'Pangolin', cursive;
+    color: #276281;
+    font-weight: 150;
+}
+
+    
+
+p{
+    font-family: 'Pangolin', cursive;
+    line-height: 2;
+    font-weight: 130;
+    color: white;
+}
+
+a{
+    margin: 10px 20px;
+    color: white;
+    text-decoration: none;
+    line-height: 6;
+    font-family: 'Pangolin', cursive;
+}
+
+a:hover{
+    color: #113a50;
+}
+
+
+
+.top-container{
+    border-radius: 2%;
+    background-color: #fe7f39;
+
+}
+.middle-container{
+    margin: 20px;
+}
+
+.footer{
+    background-color:  #fe7f39;
+    padding: 50px 10px 20px;
+}
+
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.skill-pic{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.skill-pic-2{
+    width: 25%;
+    float: right;
+}
+
+
+.profile-pic{
+    width: 70%;
+    margin: 100px 0px 100px;
+}
+
+hr{
+    border: dotted 7px  #113a50;
+    border-bottom: none;
+    width: 4%;    
+    margin: 100px auto;
+}
+/* *********************************All-Buttons************************************* */
+.contactme-btn {
+    background:  #113a50;
+    background-image: -webkit-linear-gradient(top,   rgb(244, 203, 40),  #113a50);
+    background-image: -moz-linear-gradient(top,   rgb(244, 203, 40),  #113a50);
+    background-image: -ms-linear-gradient(top,   rgb(244, 203, 40),  #113a50);
+    background-image: -o-linear-gradient(top,   rgb(244, 203, 40),  #113a50);
+    background-image: linear-gradient(to bottom,   rgb(244, 203, 40),  #113a50);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Montserrat,sans-serif;;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .contactme-btn:hover {
+    background:  #113a50;
+    background-image: -webkit-linear-gradient(top, #f5b40e, #db1111);
+    background-image: -moz-linear-gradient(top, #f5b40e, #db1111);
+    background-image: -ms-linear-gradient(top, #f5b40e, #db1111);
+    background-image: -o-linear-gradient(top, #f5b40e, #db1111);
+    background-image: linear-gradient(to bottom, #f5b40e, #db1111);
+    text-decoration: none;
+  }
+  
+  .link-btn :hover{
+background-color: #113a50;
+color: #ffffff;
+}
+
+
+
+
+
+.copy-write{
+    color: whitesmoke;
+    font-size: 0.75rem;
+    padding-bottom: 20px 0;
+}
+.contact-me{
+    width: 50%;
+    margin: 50px auto 60px;
+    background-color: rgba(254, 127, 57, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 10%;
+    padding: 5px;
+}
+
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+.skill-row {
+    background-color: rgba(254, 127, 57, 0.5);
+    backdrop-filter: blur(5px);
+  border-radius: 10%;
+  padding: 50px;
+}
+.social-icon{
+    margin: 30px;
+    color: white;
+}
+
+.bi-chevron-compact-down{
+
+    color: white;
+
+}
+
+.sentense{
+    width: 40vw;
+    height: 65vh;
+
+}
+
+/* *****************************PageNotFound**************************************** */
+.PageNotFound {
+    background-image: url("../src/images/license-pic/5203299.jpg");
+    background-size: 780px;
+    background-repeat: no-repeat;
+    height: 74vh;
+    width: 100%;
+color:#18202a;
+background-color: #bd4f14;
+
+} 
+.PageNotFound-content{
+    position: relative;
+    left: 300px;
+    top:35%;
+    text-align: center;
+    
+}
+.PageNotFound-title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+.PageNotFound-btn{
+    color: rgb(254, 254, 254);
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 15%;
+}
+    
+.PageNotFound-btn:hover {
+    background-color : #113a50;
+    color: white;
+  }
+ /* *****************************************Projects******************************** */
+
+ .Project {
+    background-color: rgba(254, 127, 57, 0.5);
+    backdrop-filter: blur(25px);
+    margin: 50px;
+    border-radius: 40px;
+}
+
+ul, ol {
+    list-style: none;
+        color: #113a50;
+}
+
+.projectHead {
+    color: #113a50;
+
+}
+.Project-h3, .Project-h2 {
+    color: #ffffff;
+}
+
+
+.projectDescription{
+margin: 25px 110px 5px 110px;    
+color: #113a50;
+
+}
+
+.ProjectDescription strong {
+    color: #062f45;
+  }
+  
+.ProjectImage{
+width: 50%;
+}
+
+.project-p{
+    margin: 5px 110px 5px 110px; 
+}
+
+
+
+/* Your existing CSS styles */
+
+/* Media Query for Mobile Devices */
+@media (max-width: 767px) {
+    /* Adjustments for mobile devices */
+    .top-container {
+      padding: 20px;
+    }
+  
+    .skill-row {
+      width: 100%;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+  
+    .skill-pic,
+    .skill-pic-2 {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+  }
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 767px) {
+    /* Adjustments for mobile devices */
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    
+      .skill-row {
+        width: calc(100% - 40px); /* Adjust the width as needed */
+        margin: 10px;
+      }
+    
+    .skill-pic,
+    .skill-pic-2 {
+      width: 50%;
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+  }
+  
+  /* Media Query for Tablets */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* Adjustments for tablets */
+    .skills {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .skill-row {
+      width: 70%;
+      padding: 30px;
+      box-sizing: border-box;
+    }
+  
+    .skill-pic,
+    .skill-pic-2 {
+      width: 50%;
+      margin-right: 30px;
+      margin-bottom: 0;
+    }
+  }
+  

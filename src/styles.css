@@ -322,6 +322,9 @@ margin: 5px;
 .ProjectImage{
 width: 100%;
 }
+.bi-github{
+  margin-left: 50px;
+}
 
  }
 
@@ -367,6 +370,7 @@ width: 100%;
       border-radius: 15%;
       display: inline-block;
     }
+    
 }
 
  

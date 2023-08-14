@@ -19,7 +19,7 @@ function Footer() {
             Twitter
           </a>
           <a
-            className="footer-link bi bi-github"
+            className="footer-link bi bi-github gittt"
             href="https://github.com/Tarun1088"
           >
             github

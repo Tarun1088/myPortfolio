@@ -66,7 +66,7 @@ function Content() {
           </Link>
         </div>
         <div className="skill-row">
-          <img className="skill-pic-2" src={niImage} alt />
+          <img className="skill-pic-2" src={smokebomb} alt="skill" />
           <h3>Back-end Development</h3>
           <p>
             I specialize in developing robust server-side applications using
@@ -97,21 +97,32 @@ function Content() {
           </Link>
         </div>
         <div className="skill-row">
-          <img className="skill-pic" src={smokebomb} alt="skill" />
-
-          <h3>Full-Stack Ecommerce App</h3>
+          <img className="skill-pic" src={niImage} alt />
+          <h3>Full-Stack Ecommerce App (Under Development)</h3>
           <p>
             I'm currently working on an exciting full-stack Ecommerce
             application using technologies like React.js for the front-end and
             Node.js, Express.js, and MongoDB for the back-end. This app aims to
             provide users with a seamless shopping experience, featuring product
-            browsing, cart management, and secure payment processing.
+            browsing, cart management, and secure payment processing. The
+            project is currently under development, and I'm actively working on
+            refining the user experience, implementing features, and ensuring
+            the highest level of security. To track my progress and explore the
+            evolving features of this project, you can check out the GitHub
+            repository:
+            <a href="https://github.com/Tarun1088/Ecommerce.git">
+              <img
+                alt="Check Progress on GitHub"
+                src="https://img.shields.io/badge/Check%20Progress%20on%20GitHub-blue?style=for-the-badge&logo=github"
+              />
+            </a>
           </p>
-          <Link to="/Ecommerce">
-            <Button className="link-btn" variant="outline-dark">
-              Ecommerce
-            </Button>
-          </Link>
+          <p>
+            Feel free to explore the codebase, dive into the commits, and even
+            try running the project locally by following the provided
+            instructions. Your feedback and suggestions are always welcome as I
+            continue to enhance this Ecommerce app. Stay tuned for updates!
+          </p>
         </div>
       </div>
 

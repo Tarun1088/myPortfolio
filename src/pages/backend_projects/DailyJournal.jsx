@@ -82,7 +82,7 @@ const DailyJournalApp = () => {
       <p className="projectDescription">
         Visit the live application:
         <a
-          href="https://www.drumkitapp.com"
+          href="https://awful-deer-overcoat.cyclic.app/"
           target="_blank"
           rel="noopener noreferrer"
         >

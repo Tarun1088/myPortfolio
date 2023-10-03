@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import profilePic from "../images/profile-pic.png";
@@ -8,9 +8,31 @@ import katanaImage from "../images/katana.png";
 import smokebomb from "../images/smokebomb.png";
 
 function Content() {
+  const skillsRef = useRef(null);
+  const contactRef = useRef(null);
+
+  const scrollToRef = (ref) => {
+    ref.current.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div>
       <div className="container top-container">
+        <Button
+          onClick={() => scrollToRef(skillsRef)}
+          className="link-btn headbtn"
+          variant="outline-dark"
+        >
+          Skills
+        </Button>
+        <Button
+          onClick={() => scrollToRef(contactRef)}
+          className="link-btn"
+          variant="outline-dark"
+        >
+          Contact
+        </Button>
+
         <div className="row">
           <div className="col-12">
             <h1>Hello, I'm Tarun.</h1>
@@ -29,7 +51,7 @@ function Content() {
       </div>
 
       <hr />
-      <div className="skills">
+      <div ref={skillsRef} className="skills">
         <h2>My Skills.</h2>
 
         <div className="skill-row">
@@ -126,7 +148,7 @@ function Content() {
         </div>
       </div>
 
-      <h2>Get In Touch</h2>
+      <h2 ref={contactRef}>Get In Touch</h2>
       <div className="contact-me">
         <h3>Have a project in mind or want to collaborate?</h3>
         <p className="contact-message">

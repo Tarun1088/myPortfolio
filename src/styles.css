@@ -96,6 +96,9 @@ hr{
     width: 4%;    
     margin: 100px auto;
 }
+.headbtn{
+  margin-right: 30px;
+}
 /* *********************************All-Buttons************************************* */
 .contactme-btn {
     background:  #113a50;
